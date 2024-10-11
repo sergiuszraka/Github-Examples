@@ -14,5 +14,5 @@ jobs:
     steps:
       - name: "Curl ipconfig.org test"
         run: |
-          echo "curl ipconfig.org
+          echo "curl ipconfig.org"
          

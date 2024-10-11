@@ -1,2 +1,2 @@
 # Github-Examples
-A repo containing GitHub for programmatic examples. Cośtam.
+A repo containing GitHub for programmatic examples. Cośtam. sd.gfg.

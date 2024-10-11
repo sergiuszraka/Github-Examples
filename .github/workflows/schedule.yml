@@ -1,3 +1,4 @@
+name: scheduler test
 on:
   schedule:
     - cron: '*/1 * * * *'

@@ -1,4 +1,4 @@
-name: curl ipconfig.org test ip
+name: multi-event-workflow
 on:
   push:
     branches:
@@ -12,7 +12,9 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: "Curl ipconfig.org test"
+      - name: "Echo Basic Information"
         run: |
-          echo "curl ipconfig.org"
-         
+          echo "REF: $GITHUB_REF"
+          echo "Job ID: $GITHUB_JOB"
+          echo "Action: $GITHUB_ACTION"
+          echo "Actor: $GITHUB_ACTOR"
